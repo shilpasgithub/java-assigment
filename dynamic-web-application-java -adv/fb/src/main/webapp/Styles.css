@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Style1.css */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #f3f3f3;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+h3 {
+    color: #ff0000;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #8080ff;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0080ff;
+}
+
+button:active {
+    background-color: #004080;
+}
+
+.delete button {
+    background-color: #ff3333;
+}
+
+.delete button:hover {
+    background-color: #ff0000;
+}
+
+.delete button:active {
+    background-color: #cc0000;
+}
